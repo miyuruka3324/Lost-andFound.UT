@@ -113,7 +113,7 @@ if menu == "Beranda":
     # Hero Section
     st.markdown("""
     <div style="background: linear-gradient(to right, #002147, #003d80); padding: 60px 20px; text-align: center; color: white; border-radius: 10px;">
-        <h2 style="color: white;">UT Lost & Found</h2>
+        <h2 style="color: black;">UT Lost & Found</h2>
         <p>Situs resmi untuk melaporkan dan mencari barang hilang di lingkungan kampus Universitas Terbuka.</p>
         <h3 style="color: #ffb800; font-size: 18px; margin-top:20px;">Kehilangan Barang? Atau Menemukan Milik Seseorang?</h3>
     </div>
@@ -245,4 +245,5 @@ st.markdown("""
     <div style="text-align: center; margin-top: 50px; padding: 20px; font-size: 14px; color: #666;">
         &copy; 2025 Universitas Terbuka | Sistem Lost & Found
     </div>
+
 """, unsafe_allow_html=True)
